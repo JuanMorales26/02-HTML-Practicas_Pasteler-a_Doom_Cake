@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=devide-width, initial-scale=1.0">
+    <title>02 HTML-Practica_1_LaunchX_Pastelería_Pastelero</title>
+    <style>
+         body {
+            font-family: sans-serif, Helvetica, Arial;
+        }
+        /* Estilo de header */
+        header {
+            background-color: rgb(109, 17, 17);
+            padding: 10px;
+            text-align: left;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+        }
+        section::after {
+            content: "";
+            text-align: center;
+            display: table;
+            clear: both;
+        }
+        article {
+            float: none;
+            text-align: left;
+            padding: 10;
+            width: 100%;
+            background-color: rgb(173, 106, 106);
+            height: 100%;
+         
+        }
+        footer {
+            background-color: rgb(255, 255, 255);
+            padding: 0;
+            text-align: left;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Administrador de Pastelería</h1>
+        <img src="https://i.pinimg.com/564x/80/74/5a/80745a8163a34ece1045257160f07a87.jpg" alt="Logo Doom Cake" width="250px" height="300px">
+        <h2>Control de los insumos y ordenes</h2>
+    </header>
+    <article>
+            <p>Visualice a continuación el inventario de insumos</p>
+            <p><b> Sabores</b></p>
+            <ol>
+                <li>Diablillo Straberry: 20 pzs.</li>
+                <li>Vanilla Maykr: 30 pzs.</li>
+                <li>Mancubus Juicy: 15 pzs.</li>
+                <li>Choco-Sin: 5 pzs.</li>
+            </ol>
+            <p><b> Adornos</b></p>
+            <ol>
+                <li>Crunchy Pinky: 7 pzs</li>
+                <li>Aracno Eyes: 10 pzs.</li>
+                <li>Molted-ChocoBaron: 20 pzs.</li>
+                <li>Khan Bridge Maykr: 2 pzs.</li>
+            </ol>
+    </article>
+    <footer>
+        <p><b>Pedidos</b></p>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Cliente</th>
+                <th>Telefono</th>
+                <th>email</th>
+                <th>Sabores</th>
+                <th>Adornos</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>1.-</td>
+                <td>Juan Morales</td>
+                <td>3321841751</td>
+                <td>juanmorales1_17@hotmail.com</td>
+                <td>Vanilla Maykr & Choco-Sin</td>
+                <td>Aracno Eyes</td>
+                <td>"Por favor pongale tres Aracno Eyes extra que estan buenisimos!!!"</td>
+            </tr>
+            <tr>
+                <td>2.-</td>
+                <td>Juan Perez</td>
+                <td>3321841752</td>
+                <td>juanmperez1_17@hotmail.com</td>
+                <td>Manucbus Juicy</td>
+                <td>Crunchy Pnky & Aracno Eyes</td>
+                <td>"En tamaño jumbo, con el crunchy pinky bien tsotado"</td>
+            </tr>
+            <tr>
+                <td>3.-</td>
+                <td>Juan Gonzalez</td>
+                <td>3321841753</td>
+                <td>juanmgonzalez1_17@hotmail.com</td>
+                <td>Diablilo Straberry & Choco-Sin & Mancubus Juicy</td>
+                <td>Khan Bridge Maykr</td>
+                <td>"Pongale terminado para boda, tamaño extra jumbo"</td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
